@@ -97,7 +97,7 @@ def callback_worker(call):
 @server.route("/")
 def webhook():
   bot.remove_webhook()
-  bot.set_webhook(url='https://intense-badlands-19799.herokuapp.com/' + TOKEN)
+  bot.set_webhook(url='https://exbot234.herokuapp.com/' + TOKEN)
   return "!", 200
 
 
