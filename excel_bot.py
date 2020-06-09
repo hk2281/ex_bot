@@ -104,7 +104,7 @@ if "HEROKU" in list(os.environ.keys()):
 @server.route("/")
 def webhook():
   bot.remove_webhook()
-  bot.set_webhook(url='https://exbot234.herokuapp.com/' + TOKEN)
+  bot.set_webhook(url='https://exbot234.herokuapp.com/' + token)
   return "!", 200
 
 
