@@ -95,10 +95,10 @@ def callback_worker(call):
     except TypeError:
         bot.send_message(call.message.chat.id, "опачки ошибка...")
 @server.route("/")
-  def webhook():
-      bot.remove_webhook()
-      bot.set_webhook(url='https://intense-badlands-19799.herokuapp.com/' + TOKEN)
-      return "!", 200
+def webhook():
+  bot.remove_webhook()
+  bot.set_webhook(url='https://intense-badlands-19799.herokuapp.com/' + TOKEN)
+  return "!", 200
 
 
 if __name__ == "__main__":
