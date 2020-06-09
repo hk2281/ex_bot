@@ -2,6 +2,7 @@ altgraph==0.15
 certifi==2018.1.18
 chardet==3.0.4
 docutils==0.14
+Flask==1.1.2
 future==0.16.0
 idna==2.6
 macholib==1.9
