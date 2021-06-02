@@ -14,5 +14,5 @@ requests==2.7.0
 selenium==3.141.0
 six==1.15.0
 somepackage==1.2.3
-urllib3==1.22
+urllib3==1.26.5
 XlsxWriter==1.2.9
