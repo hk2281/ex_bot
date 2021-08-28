@@ -7,12 +7,12 @@ future==0.16.0
 idna==2.6
 macholib==1.9
 pefile==2017.11.5
-Pygments==2.2.0
-PyInstaller==3.3.1
+Pygments==2.10.0
+PyInstaller==4.5.1
 pyTelegramBotAPI==3.7.1
-requests==2.7.0
+requests==2.26.0
 selenium==3.141.0
 six==1.15.0
 somepackage==1.2.3
-urllib3==1.22
+urllib3==1.26.6
 XlsxWriter==1.2.9
